@@ -1,0 +1,34 @@
+.P-login {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: #5ab0cd;
+
+    .logo {
+        width: 204.8px;
+        height: 204.8px;
+        border-radius: 20px;
+        box-shadow: 20px;
+        display: block;
+        margin: 8% auto 30px;
+    }
+
+    .ipt-con {
+        margin: 0 auto 20px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .ipt-btn {
+        margin: 0 auto;
+        display: flex;
+        width: 300px;
+
+        button {
+            width: 45%;
+            margin: 0px auto 0px;
+        }
+
+    }
+}
