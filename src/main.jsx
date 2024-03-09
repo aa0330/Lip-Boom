@@ -11,7 +11,6 @@ import '@/common/styles/global.css'
 
 
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ConfigProvider locale={zhCN}>
     <RouterProvider router={globalRouters} />
