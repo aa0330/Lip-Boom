@@ -5,10 +5,10 @@
 
 export default globalConfig = {
     initTheme: {
-        
+
         dark:false,
 
-
+        
     }
 
 }
