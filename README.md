@@ -2,8 +2,7 @@
 
 <font size=20 >如果你刚学完React想要找个项目练练手的话，这个仓库是个不错的选择
 
-
-![Uploading 唐刀.jpg…]() 
+![唐刀](https://github.com/aa0330/Lip-Boom/assets/108854192/43e7d971-993c-449a-bc9a-bb6580bc6733)
 
 
 1 Vite基础配置 
