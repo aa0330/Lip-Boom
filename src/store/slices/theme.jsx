@@ -1,6 +1,9 @@
 /* 
     createSlice 用于创建分库
 
+    适合频率较高的分库，createSlice使代码更短更易懂，安全性提高也会帮助您将来节省时间和精力。
+
+
 */
 
 import { createSlice } from "@reduxjs/toolkit";
@@ -21,6 +24,7 @@ export const themeSlice = createSlice({
     name: 'theme',
     // 初始值
     initalState,
+    // 
     reducers: {
         setDark: (state, action) => {
             state.dark = action.payload,
