@@ -32,12 +32,15 @@
             background-color: aqua;
             border-radius: 30px;
         }
-        .left:hover,.right:hover{
+        .right:hover{
             transform: scale(1.5);
             
         }
         .right{
             transition: transform  0.5s ease ;
+        }
+        .left:hover{
+            transform: rotateX(45deg);
         }
     }
 }
