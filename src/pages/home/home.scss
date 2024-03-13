@@ -16,4 +16,28 @@
         margin: 20px auto 0;
         text-align: center;
     }
+
+    .trans {
+        width: 700px;
+        height: 500px;
+        margin: 0 auto;
+        display: flex;
+        flex: wrap column;
+        justify-content: space-between;
+
+        .left,
+        .right {
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            border-radius: 30px;
+        }
+        .left:hover,.right:hover{
+            transform: scale(1.5);
+            
+        }
+        .right{
+            transition: transform  0.5s ease ;
+        }
+    }
 }

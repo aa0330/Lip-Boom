@@ -16,6 +16,12 @@ export default function idnex() {
                 <br />
                 <Button type="primary" onClick={() => navigate('/login')}>返回登陆</Button>
             </div>
+            <h2>刚看完css动画，感觉自己强的可怕</h2>
+            <div className="trans">
+                <div className="left"></div>
+                <div className="right"></div>
+            </div>
+            <p>向右边的动画添加过渡效果</p>
         </div>
     )
 }
