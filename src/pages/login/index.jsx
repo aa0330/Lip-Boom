@@ -44,9 +44,10 @@ export default function Login() {
         <div className='P-login'>
             <video src="/src/pages/login/coverr.mp4" autoplay="autoplay" loop="loop" muted="muted"></video>
             {visible && (<Alert message="Error" description="数据不能为空!" type="error" showIcon closable />)}
-            <div className="logo">
-                海浪
+            <div className='font_test'>
+               海浪
             </div>
+            <img className="logo" src="/src/pages/login/login.png" alt="" />
             <div className="ipt-con">
                 <Input ref={refUserName} placeholder='账号' prefix={<UserOutlined />} />
             </div>
