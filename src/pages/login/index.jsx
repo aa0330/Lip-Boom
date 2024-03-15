@@ -38,14 +38,15 @@ export default function Login() {
     }
 
     const getInfo = () => {
-        
     }
 
     return (
         <div className='P-login'>
+            <video src="/src/pages/login/coverr.mp4" autoplay="autoplay" loop="loop" muted="muted"></video>
             {visible && (<Alert message="Error" description="数据不能为空!" type="error" showIcon closable />)}
-
-            <img src={imgLogo} alt="logo" className="logo" />
+            <div className="logo">
+                海浪
+            </div>
             <div className="ipt-con">
                 <Input ref={refUserName} placeholder='账号' prefix={<UserOutlined />} />
             </div>
@@ -57,6 +58,7 @@ export default function Login() {
                 <Button type="primary" onClick={getInfo} >注册</Button>
 
             </div>
+
         </div>
     )
 }

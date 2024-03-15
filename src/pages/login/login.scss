@@ -3,8 +3,16 @@
     top: 0;
     bottom: 0;
     width: 100%;
-    background: #5ab0cd;
-
+    
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
 
     .ero-info {
         width: 30%;
@@ -15,6 +23,9 @@
         width: 204.8px;
         height: 204.8px;
         border-radius: 20px;
+        line-height:204.8px ;
+        font-size: 50px;
+        text-align: center;
         box-shadow: 20px;
         display: block;
         margin: 8% auto 30px;
