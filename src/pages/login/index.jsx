@@ -34,6 +34,7 @@ export default function Login() {
         }
         Cookies.set('userName', userName, { expires: 7 })
         Cookies.set('password', password, { expires: 7 })
+        console.log(Cookies.get("userName"));
         navigate('/home')
     }
 
@@ -42,7 +43,8 @@ export default function Login() {
 
     return (
         <div className='P-login'>
-            <video src="/src/pages/login/coverr.mp4" autoplay="autoplay" loop="loop" muted="muted"></video>
+            <video src="/src/pages/login/coverr.mp4" autoPlay loop muted></video>
+
             {visible && (<Alert message="Error" description="数据不能为空!" type="error" showIcon closable />)}
             <div className='font_test'>
                海浪

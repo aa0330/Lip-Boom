@@ -7,7 +7,7 @@ export default defineConfig({
 
   server: {
     // 设置server端口号. 默认5173
-    port: 3000,
+    port: 5100,
     open: '/',          // 自动打开浏览器运行页面  路由地址为'/'
   },
   resolve: {

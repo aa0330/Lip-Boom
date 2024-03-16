@@ -3,8 +3,9 @@
     top: 0;
     bottom: 0;
     width: 100%;
+    height: 100%;
     user-select: none;
-
+    
     .font_test {
         font-family: FontAbc;
         font-size: 50px;
@@ -61,3 +62,4 @@
     font-family: FontAbc;
     src: url('/src/common/fonts/HYXingKaiF.ttf');
 }
+

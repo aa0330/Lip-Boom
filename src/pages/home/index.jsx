@@ -6,22 +6,30 @@ import './home.scss'
 export default function idnex() {
 
     const navigate = useNavigate();
+    const getList = ()=>{
+
+    }
 
     return (
         <div className='P-home'>
             <h1>Home Page</h1>
             <div className="ipt-con">
                 <Button type="primary" onClick={() => goto('/login')}>返回登陆</Button>
-                <br />
-                <br />
-                <Button type="primary" onClick={() => navigate('/login')}>返回登陆</Button>
             </div>
-            <h2>刚看完css动画，感觉自己强的可怕</h2>
+            <div className="get_btn">
+                <Button onClick={getList} type='primary'>点击发送请求</Button>
+            </div>
+            <ul>
+                {
+                    
+                }
+            </ul>
+
             <div className="trans">
                 <div className="left"></div>
-                <div className="right"></div>
+                <div className="right">transform</div>
             </div>
-            <p>向右边的动画添加过渡效果</p>
+      
         </div>
     )
 }

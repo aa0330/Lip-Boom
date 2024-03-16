@@ -6,40 +6,51 @@
     background: linear-gradient(#f48c8d, #f4c58d);
 
     h1 {
+        display: inline;
         margin-top: 50px;
         text-align: center;
         color: #fff;
         font-size: 40px;
     }
+    .get_btn{
+        line-height: 100%;
+        text-align: center;
+       
+    }
 
     .ipt-con {
         margin: 20px auto 0;
-        text-align: center;
+        float: right;
     }
 
     .trans {
-        width: 700px;
-        height: 500px;
         margin: 0 auto;
-        display: flex;
+        display: inline-flex;
         flex: wrap column;
         justify-content: space-between;
 
         .left,
         .right {
-            width: 200px;
-            height: 200px;
+            width: 150px;
+            height: 150px;
             background-color: aqua;
             border-radius: 30px;
+            margin: 20px;
         }
-        .right:hover{
-            transform: scale(1.5);
-            
+
+        .right:hover {
+            transform: scale(1.2);
+
         }
-        .right{
-            transition: transform  0.5s ease ;
+
+        .right {
+            transition: transform 0.5s ease;
+            line-height: 150px;
+            text-align: center;
+            font-size: 25px;
         }
-        .left:hover{
+
+        .left:hover {
             transform: rotateX(45deg);
         }
     }
